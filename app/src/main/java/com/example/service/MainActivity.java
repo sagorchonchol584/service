@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         signup_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  Intent i = new Intent(getApplicationContext(), MainView.class);
-            //    startActivity(i);
+                Intent i = new Intent(getApplicationContext(), MainView.class);
+                startActivity(i);
                 Toast.makeText(getApplicationContext(),"SIGN UP",Toast.LENGTH_LONG).show();
             }
         });
