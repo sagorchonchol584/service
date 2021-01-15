@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Service">
-        <activity android:name=".otg_code"></activity>
+        <activity android:name=".homeview"></activity>
+        <activity android:name=".otg_code" />
         <activity android:name=".Regsitation" />
         <activity android:name=".MainView" />
         <activity android:name=".MainActivity">
